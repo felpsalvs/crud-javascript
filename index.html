@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <script type="text/javascript" src="/script.js"></script>
+    <title>CRUD de JavaScript</title>
+</head>
+
+<body>
+    <div id="nav">
+        Sala de aula
+    </div>
+    <section id="table">
+        <form method="POST">
+            <div id="input-data">
+                <input type="text" id="data" class="input-text" placeholder="Nome" required/>
+                <input type="email" id="email" class="input-text" placeholder="Email" required/>
+                <input type="number" id="phone" class="input-text" placeholder="Telefone" required/>
+                <input type="text" id="work" class="input-text" placeholder="Profissão" required/>
+                <input type="submit" class="input-btn" value="Enviar" onclick="return addToTable()"/>
+            </div>
+        </form>
+        
+        <table id="myTable">
+            <tr id="0">
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Profissão</th>
+                <th>Ação</th>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+</html>
