@@ -4,3 +4,5 @@ function addToTable() {
 
 }
 
+//DEFININDO AS VARIÁVEIS E RECEBENDO OS DADOS
+let name = document.getElementById('name').value;
