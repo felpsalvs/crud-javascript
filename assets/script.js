@@ -6,7 +6,7 @@ function addToTable() {
     let email = document.getElementById('email').value;
     let phone = document.getElementById('phone').value;
     let work = document.getElementById('work').value;
-    let table = document.getElementById('myTable');
+    let table = document.getElementById("myTable");
 
     let tableSize = table.rows.length; //CALCULANDO O TAMANHO DA TABELA
     let row = table.insertRow(tableSize); //INSERINDO UMA LINHA ABAIXO DA TABELA
