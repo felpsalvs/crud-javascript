@@ -209,7 +209,7 @@ html {
   }
   
   input:hover {
-    background-color: #0099cc;
+    background-color: #333;
   }
   
   .input-text {
@@ -228,6 +228,10 @@ html {
     text-align: center;
     font-size: 12px;
     padding: 15px;
+  }
+
+  tr {
+    color: #000;
   }
   
   /* For desktop: */

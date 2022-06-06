@@ -1,5 +1,3 @@
-/* --------------------------- Header --------------------------- */
-
 #nav {
     width: 100%;
     height: 15vh;
@@ -9,9 +7,8 @@
     font-family: sans-serif;
     text-align: center;
     line-height: 14vh;
+    text-transform: uppercase;
 }
-
-/* --------------------------- Form --------------------------- */
 
 #input-data {
     width: 90vw;
@@ -36,7 +33,7 @@
 }
 
 .input-text:focus{
-    border-color: #333;
+    border-color: #6fdbff;
 }
 
 .input-btn {
@@ -53,7 +50,7 @@
 
 .input-btn:hover {
     background-color: #383838;
-    border-color: #383838;
+    border-color: #6fdbff;
     color: white;
 }
 
@@ -63,10 +60,8 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-/* --------------------------- Table --------------------------- */
-
 #myTable {
-    font-family: Ubuntu;
+    font-family: sans-serif;
     width: 90%;
     margin: 0 auto;
     margin-top: 5vh;
@@ -83,6 +78,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 #myTable td, th{
     border: 1px solid #ddd;
     padding: 8px;
+    color: #fff;
 }
 
 #myTable td{
@@ -90,11 +86,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 #myTable tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #333;
 }
 
 #myTable tr:hover {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.247);
 }
 
 .remove-btn{
@@ -104,4 +100,5 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     border-width: 0px;
     background-color: transparent;
     cursor: pointer;
+    color: #fff;
 }
