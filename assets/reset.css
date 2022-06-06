@@ -229,10 +229,6 @@ html {
     font-size: 12px;
     padding: 15px;
   }
-
-  tr {
-    color: #000;
-  }
   
   /* For desktop: */
   .col-1 {width: 8.33%;}

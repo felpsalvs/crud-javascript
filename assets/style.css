@@ -102,3 +102,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     cursor: pointer;
     color: #fff;
 }
+
+.remove-btn:hover{
+    color: #6fdbff;
+}
