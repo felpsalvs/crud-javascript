@@ -5,7 +5,7 @@
 
 ### 🔖 Sobre
 Desenvolvimento de CRUD simples com JavaScript, o projeto foi feito com base nas pesquisas feitas no site (https://www.computersciencemaster.com.br/exemplos-de-crud/).
-Eu aprendi com esse projeto que é possível com o JS puro manipular a criação e remoção de linhas numa tabela, definir variáveis para receber dados, assim como limpar os campos de dados.
+Eu aprendi com esse projeto que é possível usar o JS puro para manipular a criação e remoção de linhas numa tabela, definir variáveis para receber dados, assim como limpar os campos de dados.
 
 ### 🚀 Tecnologias
 Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
