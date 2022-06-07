@@ -106,3 +106,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .remove-btn:hover{
     color: #6fdbff;
 }
+p{
+    cursor: pointer;
+}
